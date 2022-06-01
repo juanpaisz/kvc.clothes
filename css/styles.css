@@ -48,7 +48,7 @@ header {
     justify-content: center;
 }
 
-nav.secPrincipales {
+.secPrincipales {
     grid-area: nav;
     display: flex;
     justify-content: center;
@@ -62,6 +62,8 @@ nav.secPrincipales {
 
 .novedades {
     grid-area: new;
+    display: flex;
+    justify-content: center;
 }
 
 .imgSecundarias {
@@ -105,6 +107,15 @@ nav.secPrincipales {
         "tablaGuia tablaGuia imgGuia"
         "contact contact contact"
         "footer footer footer";
+    }
+
+    .imgSecundarias{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .secPrincipales{
+        font-size: 25px;
     }
 }
 
@@ -171,6 +182,11 @@ a {
     padding: 5px;
 }
 
+.genero:hover{
+    font-size: larger;
+    transition: all 0.15s;
+}
+
 .conmargin {
     margin: 0px 0px 20px 0px;
 }
@@ -198,4 +214,3 @@ table {
 .blanco {
     color: white;
 }
-
