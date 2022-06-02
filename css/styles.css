@@ -22,7 +22,7 @@
 body {
     background-color: #121212;
 }
-
+/*
 .grilla {
     display: grid;
     grid-template-columns: repeat(2, 50%);
@@ -118,7 +118,7 @@ header {
         font-size: 25px;
     }
 }
-
+*/
 h1 {
     font-family: "AmbleBold";
     font-size: 40px;
