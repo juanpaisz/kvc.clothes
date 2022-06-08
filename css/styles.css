@@ -133,6 +133,7 @@ h2 {
     color: white;
     background-color: #202020;
     padding: 20px;
+    margin: 20px;
 }
 
 h3 {
@@ -144,7 +145,7 @@ h3 {
 
 h4 {
     font-family: "AmbleItalic";
-    font-size: 17px;
+    font-size: 18px;
     color: white;
     background-color: #202020;
     margin: 20px 0px;
@@ -193,17 +194,19 @@ a {
 
 .formulario {
     font-family: "AmbleRegular";
+    font-size: 17px;
     margin-left: 20px;
 }
 
 .footer{
     font-family: "AmbleItalic";
+    font-size: 17px;
     color: white;
 }
 
 span {
     color: white;
-    font-size: 13px;
+    font-size: 17px;
 }
 
 table {
@@ -213,4 +216,11 @@ table {
 
 .blanco {
     color: white;
+}
+
+.guia {
+    background-color: #121212;
+    font-family: AmbleBold;
+    font-size: 20px;
+    text-decoration: underline;
 }
