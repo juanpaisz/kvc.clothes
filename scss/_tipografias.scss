@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "AmbleRegular";
+    src: url("../fonts/Amble-Regular.ttf");
+}
+
+@font-face {
+    font-family: "AmbleBold";
+    src: url("../fonts/Amble-Bold.ttf");
+}
+
+@font-face {
+    font-family: "AmbleItalic";
+    src: url("../fonts/Amble-Italic.ttf");
+}
+
+$text-title:'AmbleBold';
+$text: 'AmbleRegular';
+$text-sec:'AmbleItalic';

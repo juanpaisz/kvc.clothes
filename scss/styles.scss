@@ -1,0 +1,83 @@
+@import 'tipografias';
+@import 'colors';
+
+body {
+    background-color: $color-prin;
+
+    h1 {
+        font-family: $text-title;
+        font-size: 40px;
+        color: $color-text;
+        padding: 20px;
+        background-color: $color-sec;
+    }
+
+    h2 {
+        font-family: $text-title;
+        font-size: 25px;
+        color: $color-text;
+        background-color: $color-sec;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    h3 {
+        font-family: $text;
+        font-size: 20px;
+        color: $color-text;
+        padding: 20px;
+
+        &.secciones {
+            text-decoration: underline;
+        }
+    }
+    
+    h4 {
+        font-family: $text-sec;
+        font-size: 18px;
+        color: $color-text;
+        background-color: $color-sec;
+        margin: 20px 0px;
+        padding: 20px;
+    }
+}
+
+ul {
+    list-style-type: none;
+    font-family: $text;
+
+    &.genero{
+        background-color: $color-sec;
+        padding: 5px;
+    }
+
+
+    li {
+        display: inline;
+        font-size: 17px;
+        margin: 20px 10px;
+        padding: 5px;
+
+        .footer {
+            display: block;
+            font-family: $text-sec;
+            background-color: $color-prin;
+            padding: 0;
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: $color-text;
+
+    &:hover {
+        color: $color-text;
+
+        &.genero:hover {
+            font-size: larger;
+            transition: all 0.15s;
+        }
+
+    }
+}

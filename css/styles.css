@@ -1,226 +1,67 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@font-face {
+  font-family: "AmbleRegular";
+  src: url("../fonts/Amble-Regular.ttf"); }
 
 @font-face {
-    font-family: "AmbleRegular";
-    src: url("../fonts/Amble-Regular.ttf");
-}
+  font-family: "AmbleBold";
+  src: url("../fonts/Amble-Bold.ttf"); }
 
 @font-face {
-    font-family: "AmbleBold";
-    src: url("../fonts/Amble-Bold.ttf");
-}
-
-@font-face {
-    font-family: "AmbleItalic";
-    src: url("../fonts/Amble-Italic.ttf");
-}
+  font-family: "AmbleItalic";
+  src: url("../fonts/Amble-Italic.ttf"); }
 
 body {
-    background-color: #121212;
-}
-/*
-.grilla {
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    grid-template-rows: 1fr 1fr auto 1fr auto 1fr 1fr 1fr 1fr 1fr;
-    gap: 10px;
-    height: 100vh;
-    grid-template-areas: "header header"
-    "nav nav"
-    "img img"
-    "new new"
-    "imgSec imgSec"
-    "guia guia"
-    "tablaGuia tablaGuia"
-    "imgGuia imgGuia"
-    "contact contact"
-    "footer footer"
-}
-
-
-header {
-    grid-area: header;
-    display: flex;
-    justify-content: center;
-}
-
-.secPrincipales {
-    grid-area: nav;
-    display: flex;
-    justify-content: center;
-}
-
-.imgPrincipal {
-    grid-area: img;
-    display: flex;
-    justify-content: center;
-}
-
-.novedades {
-    grid-area: new;
-    display: flex;
-    justify-content: center;
-}
-
-.imgSecundarias {
-    grid-area: imgSec;
-}
-
-.guia {
-    grid-area: guia;
-}
-
-.tablaGuia {
-    grid-area: tablaGuia;
-    display: flex;
-    justify-content: center;
-}
-
-.imgGuia {
-    grid-area: imgGuia;
-    display: flex;
-    justify-content: center;
-}
-
-.footer {
-    grid-area: footer;
-}
-
-.contact {
-    grid-area: contact;
-}
-
-@media screen and (min-width: 768px) {
-    .grilla {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(10, 1fr);
-        grid-area: "header header header"
-        "nav nav nav"
-        "img img img"
-        "new new new"
-        "imgSec imgSec imgSec"
-        "guia guia guia"
-        "tablaGuia tablaGuia imgGuia"
-        "contact contact contact"
-        "footer footer footer";
-    }
-
-    .imgSecundarias{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .secPrincipales{
-        font-size: 25px;
-    }
-}
-*/
-h1 {
+  background-color: #121212; }
+  body h1 {
     font-family: "AmbleBold";
     font-size: 40px;
     color: white;
     padding: 20px;
-    background-color: #202020;
-}
-
-h2 {
+    background-color: #202020; }
+  body h2 {
     font-family: "AmbleBold";
     font-size: 25px;
     color: white;
     background-color: #202020;
     padding: 20px;
-    margin: 20px;
-}
-
-h3 {
+    margin: 20px; }
+  body h3 {
     font-family: "AmbleRegular";
     font-size: 20px;
     color: white;
-    padding: 20px;
-}
-
-h4 {
+    padding: 20px; }
+    body h3.secciones {
+      text-decoration: underline; }
+  body h4 {
     font-family: "AmbleItalic";
     font-size: 18px;
     color: white;
     background-color: #202020;
     margin: 20px 0px;
-    padding: 20px;
-}
+    padding: 20px; }
 
 ul {
-    list-style-type: none;
-    font-family: "AmbleRegular";
-}
+  list-style-type: none;
+  font-family: "AmbleRegular"; }
+  ul.genero {
+    background-color: #202020;
+    padding: 5px; }
+  ul li {
+    display: inline;
+    font-size: 17px;
+    margin: 20px 10px;
+    padding: 5px; }
+    ul li .footer {
+      display: block;
+      font-family: "AmbleItalic";
+      background-color: #121212;
+      padding: 0; }
 
 a {
-    text-decoration: none;
-}
-
-.menu li {
-    display: inline;
-    font-size: 16px;
-    margin: 20px 10px;
-    padding: 5px;
-}
-
-.kvc {
-    color: white;
-}
-
-.secciones {
-    color: white;
-    text-decoration: underline;
-}
-
-.genero {
-    color: white;
-    background-color: #202020;
-    padding: 5px;
-}
-
-.genero:hover{
-    font-size: larger;
-    transition: all 0.15s;
-}
-
-.conmargin {
-    margin: 0px 0px 20px 0px;
-}
-
-.formulario {
-    font-family: "AmbleRegular";
-    font-size: 17px;
-    margin-left: 20px;
-}
-
-.footer{
-    font-family: "AmbleItalic";
-    font-size: 17px;
-    color: white;
-}
-
-span {
-    color: white;
-    font-size: 17px;
-}
-
-table {
-    font-family: AmbleRegular;
-    color: white;
-}
-
-.blanco {
-    color: white;
-}
-
-.guia {
-    background-color: #121212;
-    font-family: AmbleBold;
-    font-size: 20px;
-    text-decoration: underline;
-}
+  text-decoration: none;
+  color: white; }
+  a:hover {
+    color: white; }
+    a:hover.genero:hover {
+      font-size: larger;
+      transition: all 0.15s; }
