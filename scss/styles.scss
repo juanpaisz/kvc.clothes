@@ -1,5 +1,6 @@
 @import 'tipografias';
 @import 'colors';
+@import 'mixins';
 
 body {
     background-color: $color-prin;
@@ -40,44 +41,87 @@ body {
         margin: 20px 0px;
         padding: 20px;
     }
-}
 
-ul {
-    list-style-type: none;
-    font-family: $text;
-
-    &.genero{
-        background-color: $color-sec;
-        padding: 5px;
-    }
-
-
-    li {
-        display: inline;
-        font-size: 17px;
-        margin: 20px 10px;
-        padding: 5px;
-
-        .footer {
-            display: block;
-            font-family: $text-sec;
-            background-color: $color-prin;
-            padding: 0;
+    ul {
+        list-style-type: none;
+        font-family: $text;
+    
+        &.genero{
+            background-color: $color-sec;
+            padding: 5px;
+        }
+    
+    
+        li {
+            display: inline;
+            font-size: 17px;
+            margin: 20px 10px;
+            padding: 5px;
+    
+            .footer {
+                display: block;
+                font-family: $text-sec;
+                background-color: $color-prin;
+                padding: 0;
+            }
         }
     }
-}
-
-a {
-    text-decoration: none;
-    color: $color-text;
-
-    &:hover {
+    
+    a {
+        text-decoration: none;
         color: $color-text;
-
-        &.genero:hover {
-            font-size: larger;
-            transition: all 0.15s;
+    
+        &:hover {
+            color: $color-text;
+    
+            &.genero:hover {
+                font-size: larger;
+                transition: all 0.15s;
+            }
+    
         }
+    }
+    
+    .formulario {
+        font-size: 1.2em;
+        font-family: $text;
+        color: $color-text;
+        padding: 0.7em;
+    }
 
+    p {
+        font-family: $text;
+        color: $color-text;
+        font-size: 20px;
+    }
+
+    .imgNov {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .imgPrin { 
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .tabla {
+        height: 20em;
+    }
+
+    .nov1 {
+        @include sizes (26em,26em)
+    }
+    
+    .nov2 {
+        @include sizes (26em,26em)
+    }
+
+    .nov3 {
+        @include sizes (26em,26em)
+    }
+
+    .nov4 {
+        @include sizes (26em,26em)
     }
 }

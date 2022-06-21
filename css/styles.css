@@ -39,29 +39,56 @@ body {
     background-color: #202020;
     margin: 20px 0px;
     padding: 20px; }
-
-ul {
-  list-style-type: none;
-  font-family: "AmbleRegular"; }
-  ul.genero {
-    background-color: #202020;
-    padding: 5px; }
-  ul li {
-    display: inline;
-    font-size: 17px;
-    margin: 20px 10px;
-    padding: 5px; }
-    ul li .footer {
-      display: block;
-      font-family: "AmbleItalic";
-      background-color: #121212;
-      padding: 0; }
-
-a {
-  text-decoration: none;
-  color: white; }
-  a:hover {
+  body ul {
+    list-style-type: none;
+    font-family: "AmbleRegular"; }
+    body ul.genero {
+      background-color: #202020;
+      padding: 5px; }
+    body ul li {
+      display: inline;
+      font-size: 17px;
+      margin: 20px 10px;
+      padding: 5px; }
+      body ul li .footer {
+        display: block;
+        font-family: "AmbleItalic";
+        background-color: #121212;
+        padding: 0; }
+  body a {
+    text-decoration: none;
     color: white; }
-    a:hover.genero:hover {
-      font-size: larger;
-      transition: all 0.15s; }
+    body a:hover {
+      color: white; }
+      body a:hover.genero:hover {
+        font-size: larger;
+        transition: all 0.15s; }
+  body .formulario {
+    font-size: 1.2em;
+    font-family: "AmbleRegular";
+    color: white;
+    padding: 0.7em; }
+  body p {
+    font-family: "AmbleRegular";
+    color: white;
+    font-size: 20px; }
+  body .imgNov {
+    padding-top: 2em;
+    padding-bottom: 2em; }
+  body .imgPrin {
+    padding-top: 2em;
+    padding-bottom: 2em; }
+  body .tabla {
+    height: 20em; }
+  body .nov1 {
+    width: 26em;
+    height: 26em; }
+  body .nov2 {
+    width: 26em;
+    height: 26em; }
+  body .nov3 {
+    width: 26em;
+    height: 26em; }
+  body .nov4 {
+    width: 26em;
+    height: 26em; }

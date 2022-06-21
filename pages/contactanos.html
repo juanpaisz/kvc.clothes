@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,52 +11,67 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
-<body>
+
+<body class="container-fluid">
+
     <header>
-        <h1 class="conmargin">
+        <h1 class="text-center text-md-start">
             <a class="kvc" href="../index.html">KVC</a>
         </h1>
+
+        <!--secciones principales-->
+        <nav class="text-center text-md-start">
+            <ul class="genero">
+                <li><a href="../pages/todo.html">TODO</a></li>
+                <li><a href="../pages/hombre.html">HOMBRE</a></li>
+                <li><a href="../pages/mujer.html">MUJER</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <form class="formulario" action="" method="get">
-        <div class="blanco">Ingresa tu nombre</div>
+    <!--formulario contacto-->
+    <form class="text-center" action="" method="get">
+        <div class="formulario">Ingresa tu nombre</div>
         <input type="text" placeholder="juan">
-    
-        <div class="blanco">Ingresa tu email</div>
+
+        <div class="formulario">Ingresa tu email</div>
         <input type="email" name="" id="" placeholder="juanperez@mail.com">
-    
-        <span>Quiero recibir novedades y/o promociones.</span>
-        <input type="checkbox" name="" id="anuncios">
+
+        <div class="formulario">Quiero recibir novedades y/o promociones.
+            <input type="checkbox" name="" id="anuncios">
+        </div>
+
 
         <div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Dejanos tu comentario"></textarea>
+            <textarea name="" id="" cols="50" rows="10" placeholder="Dejanos tu comentario"></textarea>
         </div>
-    
+
         <div>
-        <input type="submit" value="enviar">
-        <input type="reset" value="limpiar">
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpiar">
         </div>
     </form>
 
-<H4>AYUDA</H4>
+    <H4>AYUDA</H4>
     <footer>
         <nav>
             <ul>
                 <li>
-                <a class="footer" href="./guiatalles.html">Guia de talles</a>
+                    <a class="footer" href="./guiatalles.html">Guia de talles</a>
                 </li>
                 <li>
-                <a class="footer" href="./pagoyenvios.html">Metodos de pago y envios</a>
+                    <a class="footer" href="./pagoyenvios.html">Metodos de pago y envios</a>
                 </li>
                 <li>
-                <a class="footer" href="./contactanos.html">Contactanos</a>
+                    <a class="footer" href="./contactanos.html">Contactanos</a>
                 </li>
             </ul>
         </nav>
     </footer>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-</script>
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>

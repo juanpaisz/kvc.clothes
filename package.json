@@ -1,7 +1,7 @@
 {
   "name": "kvc.clothes",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tienda de ropa estilo oversize",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
