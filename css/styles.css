@@ -105,6 +105,9 @@ body {
       background-color: #2a4c5b; }
     body .productos .buzo2 {
       width: 96.7%; }
+    body .productos .buzo4 {
+      width: 500px;
+      height: 631px; }
   body input {
     padding: 5px;
     border-radius: 5px; }
