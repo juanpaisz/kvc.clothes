@@ -11,18 +11,18 @@
   src: url("../fonts/Amble-Italic.ttf"); }
 
 body {
-  background-color: #121212; }
+  background-color: #1A2F38; }
   body h1 {
-    font-family: "AmbleBold";
-    font-size: 40px;
-    color: white;
+    margin-bottom: 0;
     padding: 20px;
-    background-color: #202020; }
+    background-color: #203b46; }
+    body h1 .logo {
+      width: 70px; }
   body h2 {
     font-family: "AmbleBold";
-    font-size: 25px;
+    font-size: 20px;
     color: white;
-    background-color: #202020;
+    background-color: #24414d;
     padding: 20px;
     margin: 20px; }
   body h3 {
@@ -34,26 +34,25 @@ body {
       text-decoration: underline; }
   body h4 {
     font-family: "AmbleItalic";
-    font-size: 18px;
+    font-size: 14px;
     color: white;
-    background-color: #202020;
-    margin: 20px 0px;
-    padding: 20px; }
+    background-color: #203b46;
+    padding: 20px;
+    margin: 0.20em; }
   body ul {
     list-style-type: none;
     font-family: "AmbleRegular"; }
     body ul.genero {
-      background-color: #202020;
+      background-color: #172931;
       padding: 5px; }
     body ul li {
       display: inline;
-      font-size: 17px;
+      font-size: 14px;
       margin: 20px 10px;
       padding: 5px; }
       body ul li .footer {
         display: block;
         font-family: "AmbleItalic";
-        background-color: #121212;
         padding: 0; }
   body a {
     text-decoration: none;
@@ -62,33 +61,53 @@ body {
       color: white; }
       body a:hover.genero:hover {
         font-size: larger;
-        transition: all 0.15s; }
-  body .formulario {
-    font-size: 1.2em;
-    font-family: "AmbleRegular";
-    color: white;
-    padding: 0.7em; }
+        transition: all 0.10s; }
+  body .contacto {
+    margin-top: 3em;
+    margin-bottom: 3em; }
+    body .contacto .formulario {
+      font-size: 1em;
+      font-family: "AmbleRegular";
+      color: white;
+      padding: 0.7em; }
   body p {
     font-family: "AmbleRegular";
     color: white;
     font-size: 20px; }
-  body .imgNov {
-    padding-top: 2em;
-    padding-bottom: 2em; }
-  body .imgPrin {
-    padding-top: 2em;
-    padding-bottom: 2em; }
-  body .tabla {
-    height: 20em; }
-  body .nov1 {
-    width: 26em;
-    height: 26em; }
-  body .nov2 {
-    width: 26em;
-    height: 26em; }
-  body .nov3 {
-    width: 26em;
-    height: 26em; }
-  body .nov4 {
-    width: 26em;
-    height: 26em; }
+  body .novedades {
+    margin-top: 3em;
+    margin-bottom: 3em; }
+    body .novedades .imgNov {
+      padding: 0.5em; }
+  body .imgPrin1 {
+    margin: 0.15em;
+    max-width: 50%; }
+  body .imgPrin2 {
+    margin: 0.15em;
+    max-width: 35%; }
+  body .imgPrin3 {
+    margin: 0.15em;
+    max-width: 46.2%; }
+  body .guia {
+    margin-top: 3em;
+    margin-bottom: 3em; }
+    body .guia .tabla {
+      background-color: #122027;
+      height: 30em; }
+    body .guia .color {
+      color: white; }
+  body .productos {
+    padding: 3em;
+    background-color: #203b46; }
+    body .productos .prodText {
+      font-family: "AmbleRegular";
+      font-size: 18px;
+      background-color: #2a4c5b; }
+    body .productos .buzo2 {
+      width: 96.7%; }
+  body input {
+    padding: 5px;
+    border-radius: 5px; }
+  body textarea {
+    margin-top: 1.2em;
+    border-radius: 5px; }

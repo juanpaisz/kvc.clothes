@@ -17,84 +17,102 @@
 <body class="container-fluid">
 
     <header>
-        <h1 class="text-center text-md-start">
-            <a href="./index.html">KVC</a>
+        <h1 class="text-center">
+            <a href="./index.html">
+                <img src="./img/kvc logo copia.png" class="img-fluid logo" alt="logo">
+            </a>
         </h1>
 
         <!--secciones principales-->
-        <nav class="text-center text-md-start">
+        <nav class="text-center">
             <ul class="genero">
-                <li><a href="./pages/todo.html">TODO</a></li>
-                <li><a href="./pages/hombre.html">HOMBRE</a></li>
-                <li><a href="./pages/mujer.html">MUJER</a></li>
+                <li><a class="genero" href="./pages/todo.html">TODO</a></li>
+                <li><a class="genero" href="./pages/remeras.html">REMERAS</a></li>
+                <li><a class="genero" href="./pages/buzos.html">BUZOS</a></li>
             </ul>
         </nav>
     </header>
 
     <!--img principales-->
-    <div class="container">
-        <div class="row">
-            <div class="col-6 imgPrin">
-                <img src="./img/principal.jpg" class="img-fluid" alt="ropa" width="700">
-            </div>
-            <div class="col-6 imgPrin">
-                <img src="./img/principal.jpg" class="img-fluid" alt="ropa" width="700">
-            </div>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-    </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/fight.jpg" class="d-block w-100 imgPrin1 rounded mx-auto d-block img-fluid">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/principal.jpg" class="d-block w-100 imgPrin2 rounded mx-auto d-block img-fluid">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/tarantino 2.jpg" class="d-block w-100 imgPrin3 rounded mx-auto d-block img-fluid">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
     <!--novedades-->
     <section class="novedades animate__animated animate__swing">
-        <h2 class="text-center display-6">CONOCÉ LA NUEVA COLECCION DE KVC.CLOTHES</h2>
+        <h2 class="text-center display-6">¡CONOCÉ NUESTRA NUEVA COLECCION!</h2>
     </section>
 
     <!--imagenes novedades-->
-    <div class="imgNov">
+    <div class="novedades">
         <div class="row">
-            <div class="col-6 col-md-3 nov1">
-                <img src="./img/remera ch.jpg" class="img-fluid" alt="ropa">
+            <div class="col-6 col-md-3 imgNov">
+                <img src="./img/modelaje/IMG_6203.jpeg" class="img-fluid" alt="ropa">
             </div>
-            <div class="col-6 col-md-3 nov2">
-                <img src="./img/remera ch.jpg" class="img-fluid" alt="ropa">
+            <div class="col-6 col-md-3 imgNov">
+                <img src="./img/modelaje/IMG_6460.jpeg" class="img-fluid" alt="ropa">
             </div>
-            <div class="col-6 col-md-3 nov3">
-                <img src="./img/remera ch.jpg" class="img-fluid" alt="ropa">
+            <div class="col-6 col-md-3 imgNov">
+                <img src="./img/modelaje/arreglada.JPG" class="img-fluid" alt="ropa">
             </div>
-            <div class="col-6 col-md-3 nov4">
-                <img src="./img/remera ch.jpg" class="img-fluid" alt="ropa">
+            <div class="col-6 col-md-3 imgNov">
+                <img src="./img/modelaje/arreglada 3.JPG" class="img-fluid" alt="ropa">
             </div>
         </div>
     </div>
 
     <!--guia talles-->
     <section>
-        <h4>GUIA DE TALLES</h4>
-        <div class="container tabla">
+        <h4 class="text-center">GUIA DE TALLES</h4>
+        <div class="container guia">
             <div class="row">
                 <div class="col-12">
-                    <table class="table table-dark table-striped tabla">
-                        <th class="text-center">Talle</th>
-                        <th class="text-center">Hombre</th>
-                        <th class="text-center">Mujer</th>
+                    <table class="table table-hover tabla">
+                        <th class="text-center color">Talle</th>
+                        <th class="text-center color">Hombre</th>
+                        <th class="text-center color">Mujer</th>
                         <tr>
-                            <td class="text-center">Small</td>
-                            <td class="text-center">A:xx B:xx</td>
-                            <td class="text-center">A:xx B:xx</td>
+                            <td class="text-center color">Small</td>
+                            <td class="text-center color">A:xx L:xx</td>
+                            <td class="text-center color">A:xx L:xx</td>
                         </tr>
                         <tr>
-                            <td class="text-center">Medium</td>
-                            <td class="text-center">A:xx B:xx</td>
-                            <td class="text-center">A:xx B:xx</td>
+                            <td class="text-center color">Medium</td>
+                            <td class="text-center color">A:xx L:xx</td>
+                            <td class="text-center color">A:xx L:xx</td>
                         </tr>
                         <tr>
-                            <td class="text-center">Large</td>
-                            <td class="text-center">A:xx B:xx</td>
-                            <td class="text-center">A:xx B:xx</td>
+                            <td class="text-center color">Large</td>
+                            <td class="text-center color">A:xx L:xx</td>
+                            <td class="text-center color">A:xx L:xx</td>
                         </tr>
                         <tr>
-                            <td class="text-center">XL</td>
-                            <td class="text-center">A:xx B:xx</td>
-                            <td class="text-center">A:xx B:xx</td>
+                            <td class="text-center color">XL</td>
+                            <td class="text-center color">A:xx L:xx</td>
+                            <td class="text-center color">A:xx L:xx</td>
                         </tr>
                     </table>
                 </div>
@@ -104,28 +122,26 @@
     </section>
 
     <!--contacto-->
-    <section>
-        <h4>CONTACTANOS</h4>
+    <section >
+        <h4 class="text-center">CONTACTANOS</h4>
 
-        <form class="text-center" action="" method="get">
-            <div class="formulario">Ingresa tu nombre</div>
-            <input type="text" placeholder="juan">
+        <form class="text-center contacto" action="" method="get">
+            <div class="formulario">NOMBRE</div>
+            <input type="text" placeholder="Juan">
 
-            <div class="formulario">Ingresa tu email</div>
-            <input type="email" name="" id="" placeholder="juanperez@mail.com">
-
-            <div class="formulario">Quiero recibir novedades y/o promociones.
-                <input type="checkbox" name="" id="anuncios">
-            </div>
+            <div class="formulario">EMAIL</div>
+            <input type="email" name="" id="" placeholder="Juanperez@mail.com">
 
             <div>
                 <textarea name="" id="" cols="50" rows="10" placeholder="Dejanos tu comentario"></textarea>
             </div>
 
-            <div>
-                <input type="submit" value="enviar">
-                <input type="reset" value="limpiar">
+            <div class="formulario">Quiero recibir novedades y/o promociones.
+                <input type="checkbox" name="" id="anuncios">
             </div>
+
+            <input class="btn btn-primary" type="submit" value="ENVIAR">
+            <input class="btn btn-primary" type="reset" value="LIMPIAR">
         </form>
     </section>
 

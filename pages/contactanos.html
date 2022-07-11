@@ -15,41 +15,40 @@
 <body class="container-fluid">
 
     <header>
-        <h1 class="text-center text-md-start">
-            <a class="kvc" href="../index.html">KVC</a>
+        <h1 class="text-center">
+            <a href="../index.html">
+                <img src="../img/kvc logo copia.png" class="img-fluid logo" alt="logo">
+            </a>
         </h1>
 
         <!--secciones principales-->
-        <nav class="text-center text-md-start">
+        <nav class="text-center">
             <ul class="genero">
-                <li><a href="../pages/todo.html">TODO</a></li>
-                <li><a href="../pages/hombre.html">HOMBRE</a></li>
-                <li><a href="../pages/mujer.html">MUJER</a></li>
+                <li><a class="genero" href="../pages/todo.html">TODO</a></li>
+                <li><a class="genero" href="../pages/remeras.html">REMERAS</a></li>
+                <li><a class="genero" href="../pages/buzos.html">BUZOS</a></li>
             </ul>
         </nav>
     </header>
 
     <!--formulario contacto-->
-    <form class="text-center" action="" method="get">
-        <div class="formulario">Ingresa tu nombre</div>
-        <input type="text" placeholder="juan">
+    <form class="text-center contacto" action="" method="get">
+        <div class="formulario">NOMBRE</div>
+        <input type="text" placeholder="Juan">
 
-        <div class="formulario">Ingresa tu email</div>
-        <input type="email" name="" id="" placeholder="juanperez@mail.com">
-
-        <div class="formulario">Quiero recibir novedades y/o promociones.
-            <input type="checkbox" name="" id="anuncios">
-        </div>
-
+        <div class="formulario">EMAIL</div>
+        <input type="email" name="" id="" placeholder="Juanperez@mail.com">
 
         <div>
             <textarea name="" id="" cols="50" rows="10" placeholder="Dejanos tu comentario"></textarea>
         </div>
 
-        <div>
-            <input type="submit" value="enviar">
-            <input type="reset" value="limpiar">
+        <div class="formulario">Quiero recibir novedades y/o promociones.
+            <input type="checkbox" name="" id="anuncios">
         </div>
+
+        <input class="btn btn-primary" type="submit" value="ENVIAR">
+        <input class="btn btn-primary" type="reset" value="LIMPIAR">
     </form>
 
     <H4>AYUDA</H4>
